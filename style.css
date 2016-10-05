@@ -1,0 +1,44 @@
+body {
+				margin:0px;
+			}
+		
+		
+			#poster {
+				font-family:'Asset', cursive;
+				width: 600px;
+				height: 500px;
+				display:flex;
+				flex-direction:column;
+				justify-content: space-around;
+				align-items: center;
+				background-image: url("image.jpg");
+				background-repeat: no-repeat;
+				background-size:cover;
+				background-position:bottom center
+			}
+			
+			#teaser{
+				font-size: 18px;
+				text-align: center;
+			}
+			
+			#logo img{
+			  width:600px;
+			  height:250px;
+
+			  
+			}
+			
+			.child{
+				flex: 0 0 100px;
+				height: 120px;
+				line-height: 100px;
+				font-size: 36px;
+				color: #FFF;
+				text-align: center;
+			}
+		
+		#logo {
+			flex-basis:300px;
+			height: 200px;
+		}
